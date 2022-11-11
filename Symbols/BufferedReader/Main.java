@@ -53,9 +53,16 @@ public class Main {
 
         }while (!c.equals(stop));
     }
+    public static void doit(){
+        int b;
+        b = 'A';
+        System.out.write(b);
+        System.out.write('\n');
+    }
     public static void main(String...args) throws IOException {
 //         readChars('e');
 //        readLines("stop");
-        textEditor("qwerty");
+//        textEditor("qwerty");
+        doit();
     }
 }
